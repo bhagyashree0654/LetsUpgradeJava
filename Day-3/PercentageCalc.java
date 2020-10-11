@@ -17,8 +17,10 @@ public class PercentageCalc {
 		s.fourth_sub= sc.nextInt();
 		System.out.println("Enter 5th subject mark");
 		s.fifth_sub= sc.nextInt();
+		s.displayMark();
 		float percent=s.percentage();
 		sc.close();
+		
 		if(percent>80) 
 			System.out.println("Grade A+");
 		else if(percent<=80 && percent >70) 

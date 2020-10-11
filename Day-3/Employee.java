@@ -15,5 +15,8 @@ public class Employee {
 	public double calcAnnualSal() {
 		return 12*monthlySal;		
 	}
+	public void displayName() {
+		System.out.println("Name: "+name);
+	}
 	
 }

@@ -17,9 +17,10 @@ public class EmployeeMain {
 		e.monthlySal=sc.nextInt();
 		sc.close();
 
-		e.ageCalc();
-		double sal = e.calcAnnualSal();
 		
+		double sal = e.calcAnnualSal();
+		e.displayName();
+		e.ageCalc();
 		if(sal>=500000) {
 			double tax=(sal*20)/100;
 			System.out.println("salary: "+sal+" with tax amount of "+tax);
